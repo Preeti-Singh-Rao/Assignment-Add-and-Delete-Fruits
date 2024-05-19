@@ -29,7 +29,7 @@ fruits.addEventListener('click', function(event) {
             const li = event.target.parentElement;
             fruits.removeChild(li);
           }})
-
+//  added acooment for testing
         form.addEventListener('submit', function(event) {
           event.preventDefault();
 
@@ -56,4 +56,3 @@ fruits.addEventListener('click', function(event) {
           document.getElementById('fruit-to-add').value = "";
         });
 
-    
